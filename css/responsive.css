@@ -1,0 +1,816 @@
+.prod-color {
+    color: #fab876
+}
+
+.slick-slide:focus {
+    outline: none
+}
+
+.nw {
+    white-space: pre !important;
+    display: inline-block !important;
+    color: inherit !important;
+    font-weight: inherit !important;
+    margin: auto !important
+}
+
+.black {
+    color: #000 !important
+}
+
+br {
+    font-size: 0
+}
+
+@media screen and (max-width: 1230px) {
+    .album-page {
+        max-width: 954px;
+        margin: auto
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        padding: 0 20px
+    }
+
+    .homily {
+        max-width: 1000px;
+        margin: -200px auto 0
+    }
+
+    .homily .video {
+        width: 580px;
+        -ms-flex-preferred-size: 580px;
+        flex-basis: 580px;
+        height: 322px
+    }
+
+    .homily .video-info {
+        padding: 40px;
+        width: 420px
+    }
+
+    .homily .video-info .homily-title {
+        font-size: 26px
+    }
+
+    h4 {
+        margin-top: 40px
+    }
+
+    .main-content__left {
+        width: 100%;
+        max-width: 630px;
+        margin-right: 15px
+    }
+
+    .main-content__wrap {
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .main-content__right {
+        max-width: 370px;
+        width: 100%
+    }
+
+    .all-preachings {
+        max-width: 725px
+    }
+
+    .article-img {
+        width: 552px;
+        height: auto
+    }
+
+    .gallery-wrap {
+        max-width: 890px;
+        margin: auto
+    }
+
+    .gallery-item, .gallery-item:nth-child(4n) {
+        margin: 0 40px 40px 0
+    }
+
+    .gallery-item:nth-child(3n) {
+        margin: 0 0 40px
+    }
+
+    .video-content .preaching-video {
+        width: 534px;
+        height: 300px;
+        margin-right: 0
+    }
+
+    footer .wrapper {
+        padding: 30px 20px 0
+    }
+
+    .preachings-filter {
+        margin-top: 30px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    .wrapper {
+        padding: 0 15px
+    }
+
+    .main-bg {
+        height: 370px
+    }
+
+    .homily {
+        max-width: 767px;
+        border-top: 6px solid #9c0a00;
+        -ms-flex-pack: center;
+        justify-content: center;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .5)
+    }
+
+    .homily .video {
+        width: 406px;
+        min-width: 406px;
+        -ms-flex-preferred-size: 406px;
+        flex-basis: 406px;
+        height: 226px
+    }
+
+    .homily .video-info {
+        width: calc(100% - 406px);
+        padding: 15px
+    }
+
+    .homily .video-info .homily-title {
+        font-size: 18px;
+        line-height: 1.3;
+        margin-bottom: 10px
+    }
+
+    .homily .video-info h4 {
+        margin-bottom: 10px;
+        padding-bottom: 4px
+    }
+
+    .homily .video-info .author {
+        font-size: 13px
+    }
+
+    .homily .video-info .homily-event {
+        font-size: 11px
+    }
+
+    .homily .video-info .bible-part {
+        margin-bottom: 10px
+    }
+
+    .all-homilies {
+        font-size: 13px
+    }
+
+    .main-content__wrap {
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    .main-content__left {
+        max-width: unset;
+        margin-right: 0
+    }
+
+    .btn-all-news {
+        margin: 20px auto
+    }
+
+    .main-content__right {
+        max-width: unset
+    }
+
+    .video-content .preaching-video {
+        margin: auto
+    }
+
+    .all-preachings {
+        max-width: 725px
+    }
+
+    .additional-info__wrap {
+        margin-bottom: 20px
+    }
+
+    .article-title {
+        font-size: 36px
+    }
+
+    .article-subtitle {
+        font-size: 28px
+    }
+
+    .article-img {
+        width: auto;
+        max-width: 725px;
+        margin: 30px auto 50px
+    }
+
+    .article-content img {
+        width: auto;
+        margin: 25px auto 25px 0;
+        max-width: 100%;
+    }
+
+    .copyright-wrap {
+        padding: 0 20px 35px 0
+    }
+
+    .footer-parish {
+        font-size: 14px
+    }
+
+    .copyright {
+        font-size: 12px
+    }
+
+    .contacts-wrap {
+        font-size: 12px;
+        -ms-flex-line-pack: start;
+        align-content: flex-start
+    }
+
+    .phone {
+        padding-bottom: 15px
+    }
+
+    .email {
+        padding-bottom: 25px
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .album-page {
+        max-width: 708px
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .gallery-wrap {
+        max-width: 580px
+    }
+
+    .gallery-item, .gallery-item:nth-child(3n) {
+        margin: 0 40px 40px 0
+    }
+
+    .gallery-item:nth-child(2n) {
+        margin: 0 0 40px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        padding: 0 10px
+    }
+
+    header {
+        padding-top: 60px;
+        position: relative
+    }
+
+    header .icon-img {
+        width: 77px;
+        height: 98px;
+        margin-right: 15px
+    }
+
+    .parish-name {
+        font-size: 16px;
+        margin-top: -3px
+    }
+
+    .chirch-name {
+        margin-top: 16px
+    }
+
+    .mobile-menu {
+        display: block;
+        background-color: #9c0a00;
+        position: fixed;
+        height: 41px;
+        top: 0;
+        right: 0;
+        z-index: 9999
+    }
+
+    #burger {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 56px;
+        height: 41px;
+        margin: 0 0 0 auto
+    }
+
+    .mobile-menu__nice {
+        width: 24px;
+        height: 2px;
+        margin: 4px auto;
+        display: inline-block;
+        background-color: #fff;
+        transition: .1s ease-in
+    }
+
+    .burger-close .mobile-menu__nice:last-child {
+        display: none
+    }
+
+    .burger-close .mobile-menu__nice:first-child {
+        transform: rotate(45deg);
+        width: 30px;
+        margin: -1px
+    }
+
+    .burger-close .mobile-menu__nice:nth-child(2) {
+        transform: rotate(-45deg);
+        width: 30px;
+        margin: -1px
+    }
+
+    .menu-main-menu-container {
+        max-width: 325px;
+        margin-left: auto;
+        height: 100%;
+        z-index: 1;
+        margin-top: 0;
+        background: #9c0a00
+    }
+
+    .menu-main-menu-container .menu {
+        height: 100%;
+        width: 325px;
+        overflow: auto;
+        position: fixed;
+        padding-top: 41px!important;
+        left: 100%;
+        top: 0;
+        bottom: 0;
+        display: block;
+        transition: transform .2s ease-in;
+        background: #9c0a00;
+        z-index: 9998
+    }
+
+    .menu-main-menu-container .menu-item {
+        display: block;
+        height: auto;
+        padding: 0;
+        border-top: 1px solid hsla(0, 0%, 100%, .3)
+    }
+
+    .menu-main-menu-container .menu-item:last-of-type {
+        border-bottom: 1px solid hsla(0, 0%, 100%, .3)
+    }
+
+    .menu-main-menu-container .menu-item a {
+        padding: 18px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: left
+    }
+
+    .menu-main-menu-container .sub-menu {
+        display: none;
+        height: auto;
+        opacity: 0;
+        overflow: hidden;
+        padding: 0 !important;
+        position: static;
+        transition: .15s ease-out
+    }
+
+    .menu-main-menu-container .sub-menu:before {
+        display: none
+    }
+
+    .menu-main-menu-container .menu-main-menu-container .menu-item:hover .sub-menu, .menu-main-menu-container .not-empty {
+        padding: 0 !important
+    }
+
+    .menu-main-menu-container .sub-menu .menu-item {
+        display: block;
+        width: auto;
+        padding: 0 0 0 18px;
+        border: none;
+        height: auto;
+        background-color: #870900
+    }
+
+    .menu-main-menu-container .sub-menu .menu-item a {
+        border-top: 1px solid hsla(0, 0%, 100%, .12);
+        padding-left: 0
+    }
+
+    .not-empty:after {
+        top: 23px;
+        transition: all .15s
+    }
+
+    .not-empty.opened:after {
+        transform: rotate(180deg);
+        transition: all .15s
+    }
+
+    .homily {
+        max-width: 460px;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    .homily .video {
+        width: 460px;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        height: 256px
+    }
+
+    .homily .video-info {
+        width: 100%;
+        padding: 15px
+    }
+
+    .homily .video-info .homily-title {
+        font-size: 28px;
+        line-height: 1.3;
+        margin-bottom: 10px
+    }
+
+    .homily .video-info .author {
+        font-size: 13px;
+        margin-bottom: 10px
+    }
+
+    .homily .video-info .homily-event {
+        font-size: 13px
+    }
+
+    .homily .video-info .bible-part {
+        margin-bottom: 10px
+    }
+
+    .main-bg {
+        height: 326px
+    }
+
+    .new-wrap:before {
+        left: -8px;
+        top: -8px;
+        right: -8px;
+        bottom: -8px
+    }
+
+    .new-image {
+        margin-right: 15px;
+        min-width: 180px
+    }
+
+    .new-image img {
+        max-width: 180px;
+        max-height: 120px
+    }
+
+    .new-title {
+        font-size: 16px
+    }
+
+    .article-title {
+        font-size: 32px
+    }
+
+    .article-subtitle {
+        font-size: 26px
+    }
+
+    .all-preachings .preachings-filter {
+        padding: 0
+    }
+
+    .all-preachings .search-input__wrap {
+        margin: 10px auto 0;
+        display: block;
+        padding-right: 0;
+        width: 213px;
+    }
+
+    .search-input {
+        width: inherit;
+    }
+
+    .all-preachings .author-selector__wrap {
+        display: block;
+        text-align: center
+    }
+
+    .article-content img {
+        width: auto;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    .article-content p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .album-page {
+        max-width: 462px
+    }
+
+    .album-video__wrap {
+        width: 462px
+    }
+
+    .album-video {
+        height: 320px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-wrap {
+        max-width: 270px
+    }
+
+    .gallery-item, .gallery-item:nth-child(2n), .gallery-item:nth-child(3n) {
+        margin: 0 0 40px
+    }
+
+    .video-content .preaching-video {
+        width: 460px;
+        height: 258px
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .album-page {
+        max-width: 270px
+    }
+
+    .album-item {
+        margin-bottom: 15px
+    }
+
+    .album-item, .album-item:nth-of-type(4) {
+        margin-right: 0
+    }
+
+    .album-video__wrap {
+        width: 270px
+    }
+
+    .album-item, .album-video {
+        height: 270px
+    }
+
+    .album-item {
+        width: 270px
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .wrapper {
+        padding: 0 10px
+    }
+
+    .header-wrap {
+        margin: 0 6px 25px
+    }
+
+    .parish-name {
+        font-size: 14px;
+        margin-top: -3px;
+        line-height: 1.1
+    }
+
+    .parish-name br {
+        display: none
+    }
+
+    header .icon-img {
+        width: 55px;
+        min-width: 55px;
+        height: 68px;
+        min-height: 68px;
+        margin-right: 10px;
+        background: url(../img/icon_2-mob.jpg) no-repeat top/contain
+    }
+
+    header .icon-img:first-child {
+        background: url(../img/icon_1-mob.jpg) no-repeat top/contain;
+        margin-right: 4px
+    }
+
+    .chirch-name {
+        margin-top: 8px;
+        font-size: 8px;
+        padding-left: 16px;
+        background: url(../img/cross.svg) no-repeat 0/10px 15px
+    }
+
+    .main-bg {
+        height: 163px;
+        background: url(../img/main-bg-mob.jpg) no-repeat top/cover
+    }
+
+    .pattern {
+        display: none
+    }
+
+    .homily {
+        border-top: 5px solid #9c0a00;
+        max-width: 346px;
+        margin: -97px auto 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    .homily .video {
+        width: 346px;
+        height: 194px;
+        min-width: unset
+    }
+
+    .homily .video-info {
+        width: 100%;
+        padding: 30px
+    }
+
+    .homily .video-info h4 {
+        font-size: 12px;
+        padding-bottom: 6px
+    }
+
+    .homily .video-info .author {
+        margin-bottom: 30px
+    }
+
+    .latest-updates h4 {
+        margin-top: 40px
+    }
+
+    h4 {
+        margin-top: 10px
+    }
+
+    .btn-all-news {
+        margin: 20px auto 30px
+    }
+
+    .album-page .article-title {
+        font-size: 20px
+    }
+
+    .article-title {
+        font-size: 26px
+    }
+
+    .article-subtitle {
+        font-size: 22px
+    }
+
+    .pagination {
+        padding: 0;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .pagination-item, .pagination-item:nth-last-child(2) {
+        margin: 0 5px
+    }
+
+    .pagination .prev {
+        margin: 0 20px 0 0
+    }
+
+    .pagination .next {
+        margin: 0 0 0 5px
+    }
+
+    .video-content .preaching-video {
+        width: 350px;
+        height: 196px
+    }
+
+    .preachings-filter {
+        padding: 0;
+        text-align: center
+    }
+
+    footer .wrapper {
+        padding: 20px 10px 0
+    }
+
+    .copyright-wrap {
+        display: none
+    }
+
+    .contacts-wrap {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .address-wrap, .connection-wrap {
+        margin-left: 0
+    }
+
+    .email {
+        padding-bottom: 45px
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header-wrap {
+        margin: 0 0 25px
+    }
+
+    .parish-name {
+        font-size: 12px;
+        letter-spacing: -.4px
+    }
+
+    .latest-updates__item .date {
+        font-size: 12px;
+        margin-right: 10px
+    }
+
+    .homily {
+        max-width: 300px
+    }
+
+    .homily .video {
+        width: 100%;
+        height: 168px;
+        min-width: unset
+    }
+
+    .new-wrap {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center
+    }
+
+    .new-image {
+        margin: 0 auto 10px
+    }
+
+    .new-image img {
+        margin: auto;
+        max-width: 224px;
+        max-height: 150px
+    }
+
+    .additional-info__item {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center
+    }
+
+    .addition-img__wrap {
+        min-width: unset;
+        max-height: unset;
+        margin: 0 auto 10px;
+        width: 200px
+    }
+
+    .all-preachings .search-input {
+        width: 213px
+    }
+
+    .all-preachings .author-selector__wrap {
+        display: block
+    }
+
+    .preachings-filter p {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center
+    }
+
+    .video-content .preaching-video {
+        width: 300px;
+        height: 168px
+    }
+}
